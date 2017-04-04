@@ -46,7 +46,7 @@ class Welcome extends React.Component {
           <button className="btn btn-start" type="submit">Let&#39;s go!</button>
         </form>
         <div className="byline">
-          <p>A FreeCodeCamp project by Daniel Stewart!</p>
+          <p>A FreeCodeCamp project by <a href="https://dstewart1673.github.io" target="_blank">Daniel Stewart!</a></p>
         </div>
       </div>
     );
