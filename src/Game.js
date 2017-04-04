@@ -101,7 +101,7 @@ class Game extends React.Component {
             <button className="btn btn-danger" onClick={() => this.handleClick(-1)}>Try Again!</button>
           </div>
           <div className="byline">
-            <p>A FreeCodeCamp project by Daniel Stewart!</p>
+            <p>A FreeCodeCamp project by <a href="https://dstewart1673.github.io" target="_blank">Daniel Stewart!</a></p>
           </div>
         </div>
       );
