@@ -1,0 +1,71 @@
+body {
+  background-color: #2f4858;
+  font-family: "Nova Oval"; }
+
+.startMenu {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #F6AE2D;
+  font-size: 10vh; }
+
+.board-cell {
+  display: flex;
+  justify-content: center;
+  padding: 5px; }
+
+.container-fluid {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Nova Oval"; }
+
+.board-row {
+  min-width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.btn--box {
+  width: 15vh;
+  height: 15vh;
+  font-size: 10vh; }
+
+.radioButs {
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+
+.btn {
+  color: #F6AE2D;
+  font-family: "Nova Oval"; }
+
+.btn-player {
+  background-color: #CCF5AC; }
+
+.btn-cpu {
+  background-color: #587D71; }
+
+.btn-start {
+  background-color: #587D71;
+  min-width: 100%;
+  font-size: 8vh; }
+
+.btn-none {
+  background-color: #33658A; }
+
+.mainTitle {
+  font-size: 15vh; }
+
+.byline {
+  font-size: 3vh;
+  padding-top: 5vh;
+  display: flex;
+  justify-content: center;
+  color: #F6AE2D; }
+
+.result {
+  color: #F6AE2D; }
